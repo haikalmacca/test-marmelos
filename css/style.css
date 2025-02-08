@@ -179,7 +179,6 @@ nav a.active {
     color: #1841d8;
 }
 
-/*------- Tentang kami --------*/
 /* ------- TENTANG KAMI ------- */
 .tentang-kami {
     width: 90%;
@@ -254,7 +253,11 @@ nav a.active {
     }
     .beranda .content h1{
         font-size: 2rem;
-        width: 600px;
+        width: 250px;
+    }
+    .beranda .btn{
+        padding: 10px 40px;
+        font-size: 15px;
     }
     .navbar {
         position: absolute;
@@ -314,20 +317,3 @@ nav a.active {
 
 }
 
-@media (max-width: 615px){
-    .beranda .content h1{
-        font-size: 2rem;
-        width: 500px;
-    }
-    .beranda .btn{
-        padding: 10px 40px;
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 370px){
-    .beranda .content h1{
-        font-size: 1.7rem;
-        width: 300px;
-    }
-}
